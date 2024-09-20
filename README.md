@@ -87,14 +87,14 @@ nPeriodos
 agrego comandos para poner en nuestra consola uno por uno de los siguientes:
 
 ```
-VF=valorFinalSimple(VA=1000,r=0.02,t=7)
+VF=ValorFuturo(VA=1000,r=0.02,t=7)
 ```
 ```
-VA=valorActualSimple(VF=1140,r=0.02,t=7)
+VA=ValorActual(VF=1140,r=0.02,t=7)
 ```
 ```
-r=valorDerSimple(VF=1140,VA=1000,t=7)
+r=TasaPeriodo(VF=1140,VA=1000,t=7)
 ```
 ```
-t=valorDetSimple(VF=1140,VA=1000,r=0.02)
+t=Tiempo(VF=1140,VA=1000,r=0.02)
 ```
